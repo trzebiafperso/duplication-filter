@@ -1,0 +1,11 @@
+Ce skill a pour but de normaliser l'utilisation d'un gitflow selon les règles suivantes:
+- la branche principale est "main"
+- le développement se feront sur les branches type "feat/<scope>" ou "fix/<scope>"
+- les branches fix seront réservées aux issue de type bug
+- les autres modifications se feront sur des branches feat
+- le scope  est obligatoire et reprendra le numéro d'issue github.
+- au cas ou aucune issue n'est associé a la modification, le scope sera "misc"
+- une fois les modifications terminées, une pull request sera ouvert vers une branche nommée "RC/<scope>"
+- une fois validée, les branches "RC/<scope>" feront l'objet d'une pull request vers la branche "main"
+- les commits devront respecter les règles du skill "conventional-commit"
+- les commit directement sur la branche "main" sont interdits, sauf pour les commits de merge des branches "RC/<scope>"
