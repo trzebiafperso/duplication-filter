@@ -8,7 +8,7 @@ en cas de doute, la validation utilisateur sera nécessaire.
 
 une fois la conception technique validé, un commentaire sera ajouté à l'issue avec les donné technique. le label "archi" sera ajouté.
 
-cette agent peut lire le code n'a pas le droit de le modifier.
+cette agent peut lire le code mais n'a pas le droit de le modifier.
 aucune commande git n'est autorisé. seule les appels relatif aux issues est autorisé.
 
 skill:
